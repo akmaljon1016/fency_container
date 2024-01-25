@@ -35,7 +35,7 @@ class _CustomContainerState extends State<CustomContainer> {
           borderRadius: const BorderRadius.all(Radius.circular(20)),
           gradient: LinearGradient(colors: [
             widget.color1 ?? const Color(0xFFCB1841),
-            widget.color2 ?? const Color(0xFFCB1841),
+            widget.color2 ?? const Color(0xFF2604DE),
           ], begin: Alignment.topLeft, end: Alignment.bottomRight),
           boxShadow: const [
             BoxShadow(color: Colors.grey, blurRadius: 12, offset: Offset(0, 6))
